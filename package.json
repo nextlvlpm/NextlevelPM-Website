@@ -1,1 +1,10 @@
-{"scripts":{"build":"eleventy","start":"eleventy --serve"},"dependencies":{"@11ty/eleventy":"^2.0.1"},"devDependencies":{}}
+{
+  "scripts": {
+    "build": "eleventy --config=eleventy.config.js",
+    "start": "eleventy --serve --config=eleventy.config.js"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  },
+  "devDependencies": {}
+}
