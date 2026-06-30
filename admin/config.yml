@@ -1,0 +1,74 @@
+backend:
+  name: github
+  repo: YOUR-GITHUB-USERNAME/YOUR-REPOSITORY-NAME
+  branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+
+media_folder: "src/assets/uploads"
+public_folder: "/assets/uploads"
+
+site_url: https://nextlevelpm.net
+display_url: https://nextlevelpm.net
+logo_url: /assets/nextlevelpm-logo.jpg
+
+collections:
+  - name: "pages"
+    label: "Website Pages"
+    files:
+      - label: "Home Page"
+        name: "home"
+        file: "src/index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Page Content", name: "body", widget: "markdown"}
+      - label: "Consulting Page"
+        name: "consulting"
+        file: "src/consulting.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Page Content", name: "body", widget: "markdown"}
+      - label: "PMP Training Page"
+        name: "pmp_training"
+        file: "src/pmp-training.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Page Content", name: "body", widget: "markdown"}
+      - label: "Corporate Training Page"
+        name: "corporate_training"
+        file: "src/corporate-training.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Page Content", name: "body", widget: "markdown"}
+      - label: "About Page"
+        name: "about"
+        file: "src/about.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Page Content", name: "body", widget: "markdown"}
+      - label: "Contact Page"
+        name: "contact"
+        file: "src/contact.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Page Content", name: "body", widget: "markdown"}
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - label: "Contact and Brand Settings"
+        name: "site"
+        file: "src/site.json"
+        fields:
+          - {label: "Business Name", name: "name", widget: "string"}
+          - {label: "Tagline", name: "tagline", widget: "string"}
+          - {label: "Email", name: "email", widget: "string"}
+          - {label: "Phone", name: "phone", widget: "string"}
+          - {label: "Booking URL", name: "booking_url", widget: "string"}
+          - {label: "Domain", name: "domain", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}

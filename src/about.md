@@ -1,0 +1,6 @@
+---
+title: About
+description: Learn about Dr. LaShawn Johnson and the experience behind NextLevel PM.
+permalink: /about/
+---
+<section class="page-hero"><div class="eyebrow">About NextLevel PM</div><h1>Enterprise experience. Practical leadership. Real-world results.</h1><p>NextLevel PM was founded to help organizations and professionals strengthen project delivery through consulting, leadership development, and PMP training.</p></section><section class="section"><div class="grid two"><div><h2>Led by Dr. LaShawn Johnson</h2><p>Dr. Johnson brings more than 25 years of enterprise project management, transformation, training, and leadership experience. Her work is rooted in structure, clarity, and the belief that strong project leadership can transform organizations and careers.</p><p>With PMP and PMI-ACP credentials, corporate leadership experience, and a passion for teaching, she helps teams move beyond theory into practical execution.</p></div><div class="card"><h3>Core Strengths</h3><p>Project leadership, organizational transformation, PMO strategy, process improvement, PMP instruction, stakeholder communication, and leadership development.</p></div></div></section><section class="cta"><h2>Let’s talk about your next level.</h2><a class="btn" href="{{ site.booking_url }}">Schedule a Discovery Call</a></section>

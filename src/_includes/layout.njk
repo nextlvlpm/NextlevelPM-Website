@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }} | NextLevel PM</title>
+  <meta name="description" content="{{ description or site.description }}">
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="/"><img src="/assets/nextlevelpm-logo.jpg" alt="NextLevel PM logo"><span>{{ site.tagline }}</span></a>
+  <nav><a href="/consulting/">Consulting</a><a href="/pmp-training/">PMP Training</a><a href="/corporate-training/">Corporate Training</a><a href="/resources/">Resources</a><a href="/about/">About</a><a href="/contact/">Contact</a></nav>
+  <a class="btn small" href="{{ site.booking_url }}">Schedule Call</a>
+</header>
+<main>{{ content | safe }}</main>
+<footer>
+  <div><img src="/assets/nextlevelpm-logo.jpg" alt="NextLevel PM logo"><p>Helping organizations deliver successful change, improve performance, and develop project leaders.</p></div>
+  <div><strong>Contact</strong><p><a href="mailto:{{ site.email }}">{{ site.email }}</a><br><a href="tel:+12143968038">{{ site.phone }}</a></p></div>
+  <div><strong>Next Step</strong><p><a href="{{ site.booking_url }}">Schedule a Discovery Call</a></p></div>
+  <p class="copyright">© {{ '' | year }} NextLevel PM, LLC. All rights reserved.</p>
+</footer>
+</body>
+</html>
